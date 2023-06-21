@@ -1,0 +1,25 @@
+.titulo{
+    text-align: center;
+
+}
+h1 .titulo{
+
+    text-align: center;
+}
+.oscuro{
+    background-color: black;
+    color: white;
+}
+.claro{
+    background-color: white;
+    color: black;
+}
+.small{
+    font-size: 15px;
+}
+.medium{
+    font-size: 30px;
+}
+.large{
+    font-size: 45px;
+}
