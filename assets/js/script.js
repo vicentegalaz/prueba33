@@ -1,4 +1,4 @@
-//listado nuevo
+//tabla nueva
 var cargarTabla = (listadoNuevo) => {
   let eSBtnAccion = document.getElementById("sBtnAccion");
   let eContenedorTabla = document.getElementById("contenedorTabla");
@@ -60,7 +60,7 @@ var cargarTabla = (listadoNuevo) => {
       eGenero.value = element.genero;
       eAceptar.value = element.aceptar;
     })
-
+//eliminar
     var eBtnEliminar = document.getElementById("btnEliminar" + i);
     eBtnEliminar.addEventListener("click", () => {
       let sBtn = "<button type='button' id='btnEliminar' value='" + i + "'>Eliminar</button>"
